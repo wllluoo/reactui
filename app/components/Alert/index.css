@@ -1,0 +1,36 @@
+body, html, #root{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+/*.show {
+    display: block!important;
+}*/
+.close {
+    float: right;
+    display: block;
+}
+/*.modalContainer {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.9;
+}*/
+.modalContent {
+    height: 100%;
+    width: 100%;
+    /*background: #eee;*/
+}
+.modal {
+    width: 400px;
+    height: 180px;
+    z-index: 99999;
+    background: #eee;
+    opacity: 1;
+    border-radius: 4px;
+    position: absolute;
+    top: 36%;
+    left: 37%;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}

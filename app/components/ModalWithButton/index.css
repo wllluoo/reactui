@@ -1,0 +1,32 @@
+.show {
+    display: block!important;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    right: 0;
+    /*z-index: 999;*/
+    top: 0;
+    left: 0;
+    transition: transform 0.5s ease;
+}
+.mask {
+    opacity: 0.6;
+    background: #ddd;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.rightPart{
+    position: fixed;
+    top: 0;
+    width: 45%;
+    height: 100%;
+    z-index: 1000;
+    right: 0;
+    background: #fff;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.closeBtn {
+    width: 20px;
+    color: white;
+}

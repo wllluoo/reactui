@@ -68,6 +68,12 @@ class App extends Component {
               <span className="nav-text">表格下拉加载</span>
             </Link>
           </Menu.Item>
+          <Menu.Item key="7">
+            <Link to="/Eventemitter">
+              <Icon type="bar-chart" />
+              <span className="nav-text">事件监听</span>
+            </Link>
+          </Menu.Item>
         </Menu>
       </Sider>
       <Layout style={{ marginLeft: 200 }}>

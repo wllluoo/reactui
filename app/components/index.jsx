@@ -7,3 +7,4 @@ export SvgTest from './SvgTest/SvgTest';
 export Home from './Home/Home';
 export SvgDemo from './SvgDemo/SvgDemo';
 export MoreTable from './MoreTable/MoreTable';
+export Eventemitter from './Eventemitter';

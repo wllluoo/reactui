@@ -10,7 +10,7 @@ import { createStore, applyMiddleware, compose } from 'redux'
 import { Modal, Button } from 'antd';
 import middleware from './middleware/middleware';
 import App from './App';
-import { ModalWithButton, ImmutableTest, HighOrderComponent, Alert, SidebarContainer, SvgTest, Home, SvgDemo, MoreTable, Eventemitter } from './components';
+import { ModalWithButton, ImmutableTest, HighOrderComponent, Alert, SidebarContainer, SvgTest, Home, SvgDemo, MoreTable, Eventemitter, Routers } from './components';
 
 const history = createHistory();
 const reduxRouterMiddleware = routerMiddleware(history);
@@ -37,6 +37,7 @@ ReactDOM.render(
 				<Route path="/SvgDemo" component={SvgDemo} />
 				<Route path="/MoreTable" component={MoreTable} />
 				<Route path="/Eventemitter" component={Eventemitter} />
+				<Route path="/Routers" component={Routers} />
 		</App>
 		</BrowserRouter>
 	</Provider>,

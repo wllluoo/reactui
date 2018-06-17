@@ -74,6 +74,12 @@ class App extends Component {
               <span className="nav-text">事件监听</span>
             </Link>
           </Menu.Item>
+          <Menu.Item key="8">
+            <Link to="/Routers">
+              <Icon type="bar-chart" />
+              <span className="nav-text">手写router</span>
+            </Link>
+          </Menu.Item>
         </Menu>
       </Sider>
       <Layout style={{ marginLeft: 200 }}>
